@@ -1,95 +1,170 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Vladyslav CV</title>
+    <title>Project GoIT</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-    <table cellspacing="15">
-        <tr>
-            <td><img src="first_img.jpeg"
-                width="200" alt="img"/></td>
-            <td><h1>Vladyslav K</h1>
-                <p><em>Я учиник на <strong>front end</strong></p></em>
-                <p>Живу в Германии</p></td>
-        </tr>
-    </table>
+   <!--Main-->
+   <div class="main">
+        <!--Main content-->
+        <div class="main_content">
+            <!--about user-->
+            <div class="about">
+                <h2 class="about_position">Front-End Developer<br></h2>
 
-    <hr>
+                <h1 class="about_name">Vladyslav Klunnyi</h1><br>
+                <p class="about_description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua.Quis ipsum suspendisse ultrices gravida.
+                Risus commodo viverra maecenas accumsan lacus vel 
+                facilisis.</p>
 
-    <h2>Мои социальные сети</h2>
-    <h2>Мои хобби</h2>
-    <h2>Связаться со мной</h2>
-    
-    <form>
-        <label for="name">Ваше имя:</label>
-        <input type="text" id="name" 
-        placeholder="Ввидите ваше имя">
 
-    </form>
-    <br>
-    <form action="">
-        <label for="email">Ваш email:</label>
-        <input type="email" id="email" 
-        placeholder="Ввидите ваш email">
-        <br>
-        <input type="submit" value="связаться">
+            </div>
+            <!--Projects-->
+            <div class="projects">
+                
+                <h3 class="title">
+                    Projects
+                </h3>
+                <ol class="projects_list">
+                    <li class="projects_item">
+                        <span class="project"><a href="https://hellenglish.goit.global/" target="_blank" class="project_link">https://hellenglish.goit.global/</a>
+                        .......
+                        <span class="project_bracket">[</span>HTML5, CSS3<span class="project_bracket">]</span></span>
 
-    </form>
-    <br>
-    <form>
-        <label for="text">Ваше сообщение</label>
-        <br>
-        <textarea name="text", rows="2", cols="5"></textarea>
-        
-    </form>
+                    </li> 
+                    
+                    <li class="projects_item"> 
+                        <span class="project"><a href="https://cryptohub.goit.global/" target="_blank" class="project_link">https://cryptohub.goit.global/</a>
+                        .........
+                        <span class="project_bracket">[</span>JavaScript<span class="project_bracket">]</span></span>
+                    </li>
+                   
+                    <li class="projects_item">
+                        <span class="project"><a href="https://kidslike.goit.global/" target="_blank" class="project_link">https://kidslike.goit.global/</a>
+                        ................
+                        <span class="project_bracket">[</span>React.js, Node.js<span class="project_bracket">]</span></span>
 
-    <ul>
-        <li><a href="https://www.youtube.com/" target="_blank">youtube</a></li>
-        <li><a href="https://appstorrent.ru/" target="_blank">appstorrent</a></li>
 
-    </ul>
-    <ol>
-        <li>текст</li>
-        <li>текст</li>
-        <li>текст</li>
+                    </li>
+                     
 
-    </ol>
+                </ol>
+                
 
-    <hr>
+            </div>
+            <!--Work-->
+            <div class="work">
 
-    <h2>Опыт работы</h2>
-    <table>
-        <thead>
-        
-            <tr>
-                <th>Компания</th>
-                <th>Должность </th>
-                <th>Год</th>
-            </tr>
-        </thead>
-        <tbody>
-         <tr>
-            <td>EPAM</td>
-            <td>Stagor</td>
-            <td>2019-2020</td>
-        </tr>
-        <tr>
-            <td>EPAM CO</td>
-            <td>Stagor</td>
-            <td>2019-2020</td>
-        </tr>
-        <tr></tr>
-        <tr></tr>
-    </tbody>
-       
-    </table>
+                <h3 class="title">Work Experience</h3>
+                <!--Company 1-->
+                <div>
+                    <h4 class="work_position">Front-End Developer <span class="organization">Freelance</span></h4>
+                    <p class="period">September 2019 - up to now    <span class="line">|</span>     Country</p>
+                    <ul class="work_list">
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                            tempor incididunt ut labore et dolore magna aliqua.</li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                        <li>Risus commodo viverra maecenas. </li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</li>
+                    </ul>
+                </div>
+                <!--Company 2-->
+                <div>
+                    <h4 class="work_position">Manager <span class="organization">Roga & Kopyta New</span></h4>
+                    <p class="period">March 2015 - October 2018   <span class="line">|</span>   Country</p>
+                    <ul class="work_list">
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            labore et dolore magna aliqua.  
+                            </li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                        <li>Risus commodo viverra maecenas.</li>
+                </div>
+                <!--Company 3-->
+                <div>
+                    <h4 class="work_position">Manager <span class="organization">Roga & Kopyta LLC</span></h4>
+                    <p class="period">June 2014 - February 2015   <span class="line">|</span>   Country</p>
+                    <ul class="work_list">
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                        <li>Quis ipsum suspendisse ultrices gravida.</li>
+                        <li>Risus commodo viverra maecenas.</li>
 
-    <hr>
-    
-<h2>Youtube</h2>
-<a href="youtube.html" target="_blank">Открыть</a>
 
+
+                    </ul>
+                </div>
+
+
+
+            </div>
+            <!--Education-->
+            <div class="education">
+                <h3 class="education_title">Education</h3>
+                <h4 class="education_list">Volodymyr Dahl east Ukrainian National University</h4>
+                <p class="education_speciality"> Electrical Engineering</p>
+                <p class="period">September 2017 - June 2022</p>
+
+            </div>
+
+
+        </div>
+        <!--Sadebar-->
+        <aside class="sidebar">
+            <img src="img/СV_photo.JPG" alt="user foto" class="foto">
+            <!--Contacts-->
+            <div class="contacts"> 
+                <h3>
+                    Contacts
+                </h3>
+                <div>
+                    <p>
+                        <span class="contact_type">
+                            C:
+                        </span> <a href="tel:+380995253423" class="contact_link">+38 (099) 525-34-23
+                        </a></p>
+                    <p>
+                        <span class="contact_type">
+                            E:
+                        </span> <a href="mailto:vladklunny22@gmail.com" class="contact_link">vladklunny22@gmail.com</a></p>
+                    
+
+                </div>
+
+            </div>
+            <!--Tech Skills-->
+            <div class="Tech_Skills_color">
+                <h3>Tech Skills</h3>
+                <ul class="tech_skills_list">
+                    <li class="Tech_Skills_item"><span class="Tech_Skills_text">HTML5</span></li>
+                    <li class="Tech_Skills_item"><span class="Tech_Skills_text">CSS3</span></li>
+                    <li class="Tech_Skills_item"><span class="Tech_Skills_text">GIT</span></li>
+                    <li class="Tech_Skills_item"><span class="Tech_Skills_text">SQL(basik)</span></li>
+                    <li class="Tech_Skills_item"><span class="Tech_Skills_text">Java(basik)</span></li>
+                    <li class="Tech_Skills_item"><span class="Tech_Skills_text">JavaScript</span></li>
+                    <li class="Tech_Skills_item"><span class="Tech_Skills_text">React.js</span></li>
+                    <li class="Tech_Skills_item"><span class="Tech_Skills_text">Node.js</span></li>
+
+                </ul>
+            </div>
+            <!--Soft Skills-->
+            <div class="Soft_Skills_color">
+                <h3>Soft Skills</h3>
+                <ul class="soft_skill_color">
+                    <li class="Soft_Skills_item"><span class="Soft_Skills_text">Scrum</span></li>
+                    <li class="Soft_Skills_item"><span class="Soft_Skills_text">Agila</span></li>
+                    <li class="Soft_Skills_item"><span class="Soft_Skills_text">Postman</span></li>
+                    <li class="Soft_Skills_item"><span class="Soft_Skills_text">Teamwork</span></li>
+                    
+            </div>
+        </aside>
+   </div>
     
 </body>
 </html>
